@@ -4,8 +4,18 @@
     "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
   <session-factory>
-    <property name="connection.url"/>
-    <property name="connection.driver_class"/>
+    <property name="connection.url">jdbc:mysql://fp2.croh1mygfad5.eu-west-3.rds.amazonaws.com:3306</property>
+    <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+    <property name="connection.username">admin</property>
+    <property name="connection.password">FP2%SanAlberto</property>
+    <mapping class="entity.Entidades"/>
+    <mapping class="entity.Estados"/>
+    <mapping class="entity.Participaciones"/>
+    <mapping class="entity.Profesiones"/>
+    <mapping class="entity.Proyectos"/>
+    <mapping class="entity.Roles"/>
+    <mapping class="entity.Tags"/>
+    <mapping class="entity.Usuarios"/>
     <!-- <property name="connection.username"/> -->
     <!-- <property name="connection.password"/> -->
 

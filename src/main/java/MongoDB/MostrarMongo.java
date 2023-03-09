@@ -1,7 +1,8 @@
 package MongoDB;
 
 import com.mongodb.MongoException;
-import com.mongodb.client.*;
+import com.mongodb.client.FindIterable;
+import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
 
 public class MostrarMongo {
